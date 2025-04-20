@@ -1,4 +1,4 @@
-App = () => {
+const App = () => {
   return (
     <>
       <p>Text QR Code Generator</p>
