@@ -1,9 +1,4 @@
 const textStyles = {
-  label: {
-    fontFamily: 'sans-serif',
-    color: '#FFF'
-  },
-
   text: {
     fontFamily: 'sans-serif',
     resize: 'none',
@@ -25,7 +20,8 @@ const textStyles = {
     color: '#000',
     fontFamily: 'sans-serif',
     fontWeight: 'bold',
-    border: 'none'
+    border: 'none',
+    marginTop: '10px'
   }
 }
 
