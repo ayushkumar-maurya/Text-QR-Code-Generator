@@ -15,3 +15,11 @@ textarea::-webkit-scrollbar-thumb {
 textarea::-webkit-scrollbar-thumb:hover {
   background: #00050A;
 }
+
+button {
+  background-color: #FFF;
+}
+
+button:hover {
+  background-color: #CCC;
+}

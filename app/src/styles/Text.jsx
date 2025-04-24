@@ -3,6 +3,7 @@ const textStyles = {
     fontFamily: 'sans-serif',
     color: '#FFF'
   },
+
   text: {
     fontFamily: 'sans-serif',
     resize: 'none',
@@ -16,6 +17,15 @@ const textStyles = {
     padding: '7px',
     width: 280,
     height: 140
+  },
+
+  button: {
+    padding: '7px',
+    borderRadius: '5px',
+    color: '#000',
+    fontFamily: 'sans-serif',
+    fontWeight: 'bold',
+    border: 'none'
   }
 }
 
