@@ -1,0 +1,17 @@
+textarea::-webkit-scrollbar {
+  width: 10px;
+}
+
+textarea::-webkit-scrollbar-track {
+  background: #020A14;
+  border-radius: 5px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background: #00050A;
+  border-radius: 5px;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+  background: #00050A;
+}
