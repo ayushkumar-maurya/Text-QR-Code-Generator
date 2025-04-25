@@ -2,7 +2,7 @@ import { useState } from "react"
 import textStyles from "../styles/Text"
 import '../css/Text.css'
 
-const Text = () => {
+const Text = ({ setTextForQR }) => {
   const [text, setText] = useState('')
 
   return (
@@ -15,7 +15,7 @@ const Text = () => {
         placeholder="Enter Text"
       />
       <br />
-      <button type="button" style={textStyles.button}>Generate</button>
+      <button type="button" style={textStyles.button} onClick={() => setTextForQR(text)}>Generate</button>
     </>
   )
 }
