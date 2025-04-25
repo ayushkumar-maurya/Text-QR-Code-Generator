@@ -1,8 +1,17 @@
+import Content from "./components/Content"
+import appStyles from "./styles/App"
+import './css/App.css'
+
 const App = () => {
   return (
-    <>
-      <p>Text QR Code Generator</p>
-    </>
+    <div style={appStyles.main}>
+      <div style={appStyles.content} className="content">
+        <Content />
+      </div>
+      <div style={appStyles.footer}>
+        <p>Developed by: Ayushkumar Maurya</p>
+      </div>
+    </div>
   )
 }
 
