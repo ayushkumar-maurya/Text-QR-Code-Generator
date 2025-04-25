@@ -1,11 +1,8 @@
 const contentStyles = {
-  containerOne: {
-    padding: '7px'
-  },
-
-  containerTwo: {
+  container: {
     flex: 1,
-    padding: '7px'
+    display: 'flex',
+    alignItems: 'center'
   }
 }
 

@@ -1,4 +1,11 @@
 const textStyles = {
+  container: {
+    display: 'flex',
+    flexDirection: 'column',
+    padding: '20px',
+    alignItems: 'center'
+  },
+
   text: {
     fontFamily: 'sans-serif',
     resize: 'none',
@@ -21,7 +28,8 @@ const textStyles = {
     fontFamily: 'sans-serif',
     fontWeight: 'bold',
     border: 'none',
-    marginTop: '10px'
+    marginTop: '10px',
+    width: 'fit-content'
   }
 }
 

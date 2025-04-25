@@ -16,10 +16,10 @@ textarea::-webkit-scrollbar-thumb:hover {
   background: #00050A;
 }
 
-button {
+.generate-btn {
   background-color: #FFF;
 }
 
-button:hover {
+.generate-btn:hover {
   background-color: #CCC;
 }
