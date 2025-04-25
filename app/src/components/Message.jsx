@@ -14,7 +14,7 @@ const Message = ({ msg }) => {
 
   return (
     <div style={messageStyles.container}>
-      {title ? <h2 style={messageStyles.title}>{title}</h2> : <></>}
+      {title && <h2 style={messageStyles.title}>{title}</h2>}
       <p style={messageStyles.msg}>{msg}</p>
     </div>
   )

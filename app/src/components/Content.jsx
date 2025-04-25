@@ -11,9 +11,9 @@ const Content = () => {
 
   return (
     <div style={contentStyles.container} className="content">
-      {textForQR ? <></> : <Message msg={msg} />}
-      <Text setTextForQR={setTextForQR} />
-      {textForQR ? <QRCodeImg textForQR={textForQR} /> : <></>}
+      {!textForQR && <Message msg={msg} />}
+      <Text setTextForQR={setTextForQR} setMsg={setMsg} />
+      {textForQR && <QRCodeImg textForQR={textForQR} />}
     </div>
   )
 }
