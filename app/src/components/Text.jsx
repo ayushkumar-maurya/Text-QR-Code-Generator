@@ -6,7 +6,7 @@ const Text = ({ setTextForQR }) => {
   const [text, setText] = useState('')
 
   return (
-    <>
+    <div style={textStyles.container}>
       <textarea
         maxLength={1000}
         style={textStyles.text}
@@ -16,7 +16,7 @@ const Text = ({ setTextForQR }) => {
       />
       <br />
       <button type="button" style={textStyles.button} onClick={() => setTextForQR(text)}>Generate</button>
-    </>
+    </div>
   )
 }
 

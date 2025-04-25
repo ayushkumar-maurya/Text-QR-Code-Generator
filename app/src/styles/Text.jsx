@@ -1,4 +1,8 @@
 const textStyles = {
+  container: {
+    padding: '20px'
+  },
+
   text: {
     fontFamily: 'sans-serif',
     resize: 'none',
