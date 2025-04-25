@@ -15,7 +15,7 @@ const Text = ({ setTextForQR }) => {
         placeholder="Enter Text"
       />
       <br />
-      <button type="button" style={textStyles.button} onClick={() => setTextForQR(text)}>Generate</button>
+      <button type="button" style={textStyles.button} onClick={() => setTextForQR(text.trim())}>Generate</button>
     </div>
   )
 }
